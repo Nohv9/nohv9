@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L.W.B - "Cadastrando novos usuários.</title>
+    <link rel="shortcut icon" href="../../assets/39.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../header.css">
+    <link rel="stylesheet" href="curriculo.css">
+</head>
+<body>
+    <header>
+        <div class="div-logo">
+            <a href="../../index.php"><img class="header-img" src="../../assets/39.png" alt=""></a>
+        </div>
+        <div class="div-btn">
+            <a href="../vagas/vagas.php" class="btn-a">Vagas</a>
+            <a href="../../empresas/empresa.php" class="btn-a">Sou empresa</a>
+            <a href="../../login/login-pf.html" class="btn-a">Login</a>
+            <a href="../../cadastro/cadastro.html" class="btn-s btn-a">Cadastre-se</a>
+        </div>
+    </header>
+    <main>
+        <div class="parte1">
+            <div class="box1">
+                <a class="ac" href="../cadastro.html">Iniciar</a>
+                <a class="ac" href="step1.html">Dados únicos</a>
+                <a class="ac" href="curriculo-cad.html">Seu currículo</a>
+                <a class="ac" href="">Explore opções</a>
+            </div>
+            <div class="box2">
+                <form class="box-cad" action="../../banco/cadastro-pj.php" method="post">
+                    <div>
+                        <p class="tt">Currículo</p>
+                    </div>
+                    <div class="obj bb">
+                        <p class="tt">Objetivo Profissional:</p>
+                        <input type="text" name="obj" value="Digite seu nome">
+                    </div>
+                    <div class="cidade bb">
+                        <p class="tt">Cidade que reside:</p>
+                        <input type="text" name="cidade" value="Digite sua data de nascimento">
+                    </div>
+                    <div class="hab bb">
+                        <p class="tt">Habilidades:</p>
+                        <input type="text" name="hab" id="">
+                    </div>
+                    <div class="form bb">
+                        <p class="tt">Formação:</p>
+                        <input type="text" name="formac" id="">
+                    </div>
+                    <div class="exp bb">
+                        <p class="tt">Experiência:</p>
+                        <input type="text" name="exp" id="">
+                    </div>
+                    <input type="submit" name="submit" value="Próximo">
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

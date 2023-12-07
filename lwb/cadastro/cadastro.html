@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L.W.B - "Cadastrando novos usuários.</title>
+    <link rel="shortcut icon" href="../assets/39.png" type="image/x-icon">
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <header>
+        <div class="div-logo">
+            <a href="../index.php"><img class="header-img" src="../assets/39.png" alt=""></a>
+        </div>
+        <div class="div-btn">
+            <a href="../vagas/vagas.php" class="btn-a">Vagas</a>
+            <a href="../empresas/empresa.php" class="btn-a">Sou empresa</a>
+            <a href="../login/login-pf.html" class="btn-a">Login</a>
+            <a href="../cadastro/cadastro.html" class="btn-s btn-a">Cadastre-se</a>
+        </div>
+    </header>
+    <main>
+        <div class="global">
+            <div class="system">
+                <div class="title">
+                    <P class="p-title">Sistema de cadastro de talento!</P>
+                    <a class="tes" href="cadastro-pj.html">Ir para cadastro PJ</a>
+                </div>
+                <form class="forms" action="../banco/cadastro-pf.php" method="post">
+                    <div class="box1">
+                        <div class="email tt">
+                            <p class="zz">Email:</p>
+                            <input class="ii" type="email" name="email" id="" placeholder="Digite seu email">
+                        </div>
+                        <div class="senha tt">
+                            <p class="zz">Senha:</p>
+                            <input class="ii" type="password" name="senha" id="" placeholder="Digite sua senha">
+                        </div>
+                        <div class="nome tt">
+                            <p class="zz">Nome:</p>
+                            <input class="ii" type="text" name="nome" id="" placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="telefone tt">
+                            <p class="zz">Telefone:</p>
+                            <input class="ii" type="number" name="telefone" id="" placeholder="Digite seu telefone">
+                        </div>
+                    </div>
+                    <input type="submit" name="submit" class="cadastrar" value="Cadastrar">
+                    <div class="box2">
+                        <div class="cidade tt">
+                            <p class="zz">Cidade:</p>
+                            <input class="ii" type="text" name="cidade" id="" placeholder="Digite sua cidade">
+                        </div>
+                        <div class="bairro tt">
+                            <p class="zz">Bairro:</p>
+                            <input class="ii" type="text" name="bairro" id="" placeholder="Digite seu Bairro">
+                        </div>
+                        <div class="cpf tt">
+                            <p class="zz">CPF:</p>
+                            <input class="ii" type="text" name="cpf" id="" placeholder="Digite seu CPF">
+                        </div>
+                        <div class="telefone tt">
+                            <p class="zz">Nascimento:</p>
+                            <input class="ii" type="date" name="nasc" id="" placeholder="Digite sua data de nascimento">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

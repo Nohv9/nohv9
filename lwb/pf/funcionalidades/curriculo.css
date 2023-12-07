@@ -1,0 +1,197 @@
+* {font-family: system-ui; margin: 0;}
+
+header {
+    display: flex;
+    margin-bottom: 60vh;
+}
+.header-img {
+    width: 155px;
+    height: 100px;
+}
+.container2 {
+    display: flex;
+    width: 651px;
+    justify-content: space-around;
+}
+.curriculo {
+    color: #1369e9;
+    border-bottom: solid;
+}
+.candidaturas {
+    color: #1369e9;
+}
+.perfil {
+    color: #1369e9;
+}
+.global {
+    display: flex;
+}
+.central {
+    background-color: #eff8ff;
+    width: 57%;
+    height: 92%;
+    border-radius: 20px;
+    filter: drop-shadow(2px 4px 6px rgb(0, 0, 0, 0.2));
+}
+form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.texto1, .texto2, .texto3, .texto4, .texto5, .texto6, .texto7{
+    border-bottom: solid 2px;
+}
+.filtros {
+    height: 80%;
+    width: 20%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.nome-curriculo {
+    border: solid ;
+}
+.corpo-curriculo {
+    border: solid;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+/**/
+main {
+    height: 100vh;
+    width: 98.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.global {
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+}
+.curriculoo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5994EC;
+    width: 80vw;
+    border: solid;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.box1 {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.box2 {
+    width: 100%;
+    height: 140vh;
+}
+.foto {
+
+}
+.nome {
+
+}
+.p1 {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid;
+    border-top: solid;
+    align-items: center;
+}
+.t-foto {
+
+border-radius: 100%;
+
+width: 10vw;
+}
+.pp {
+    color: #135FF3;
+    font-family: Lalezar;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20px;
+}
+.p2 {
+    
+display: flex;
+    
+justify-content: space-evenly;
+    
+border-bottom: solid;
+}
+.voltar {
+    
+display: flex;
+    
+justify-content: space-around;
+    
+background: #5994EC;
+}
+.a-voltar {
+    text-decoration: none;
+    color: #fff;
+    font-family: Lalezar;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.aa {
+    text-decoration: none;
+    color: #000;
+    font-family: Lalezar;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.p-curriculo {
+    color: #135FF3;
+    font-family: Lalezar;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.title-curriculo {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    margin-top: 30px;
+}
+.box-box1 {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.oo {
+    color: #FFF;
+    font-family: Lalezar;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 10px;
+}
+.p3 {
+    border-bottom: solid;
+}
+.tttt {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}

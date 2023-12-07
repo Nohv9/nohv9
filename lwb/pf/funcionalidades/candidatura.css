@@ -1,0 +1,13 @@
+* {font-family: system-ui;}
+
+header {
+    display: flex;
+}
+.container2 {
+    display: flex;
+    width: 650px;
+    justify-content: space-around;
+}
+.candidaturas {
+    border-bottom: solid;
+}

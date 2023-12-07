@@ -1,0 +1,85 @@
+.btn {
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+}
+.aa{
+    text-decoration: none;
+    color: #135FF3;
+    font-family: Lalezar;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.global {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+.box {
+    height: 100vh;
+    width: 98.4vw;
+    display: flex;
+    justify-content: center;
+}
+.p-vagas {
+    margin-top: 30px;
+    color: #135FF3;
+    font-family: monospace;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+form {
+    height: 100vh;
+    width: 70vw;
+    background: #a5a5a5;
+    filter: drop-shadow(2px 4px 6px black);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    justify-content: space-evenly;
+}
+.box2 {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.ii{
+    padding: 10px;
+    width: 50vw;
+}
+.pp{
+    color: #135FF3;
+    font-size: 20px;
+    font-weight: 600;
+}
+.dd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btnn {
+    border: none;
+    padding: 15px;
+    width: 20vw;
+    background: #135FF3;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}

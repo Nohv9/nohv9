@@ -1,0 +1,105 @@
+/*PARTE1*/
+.parte1 {
+    width: 98vw;
+    height: 84vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cadastrar {
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 10px;
+}
+.ac {text-decoration: none;color: #fff;font-size: 20px;font-weight: 700;margin-left: 50px;}
+.box1 {
+    height: 70vh;
+    width: 30vw;
+    background: #3077E2;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: #000 0px 1px 10px 1px;
+}
+.box2 {
+    height: 70vh;
+    width: 50vw;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: #000 0px 1px 10px 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+}
+input {
+    padding: 10px;
+    width: 25vw;
+    border-radius: 10px;
+    border: none;
+}
+.title {
+    font-size: 20px;
+    font-weight: 700;
+}
+.email {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+}
+.senha {
+    display: flex;
+    align-items: center;
+}
+.p-email {
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 10px;
+    color: #fff;
+}
+.p-senha {
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 10px;
+    color: #fff;
+}
+.bb {
+    display: flex;
+    width: 40vw;
+}
+.tt {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+}
+.box-cad {
+    height: 58vh;
+    background-color: #3077E2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 47vw;
+    border-radius: 20px;
+}
+.it-cad {
+    width: 10vw;
+    border: none;
+    display: flex;
+    text-align: center;
+    font-weight: 900;
+    color: #fff;
+    background-color: #3077e200;
+    font-size: 17px;
+    cursor: pointer;
+}
